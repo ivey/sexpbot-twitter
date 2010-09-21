@@ -1,0 +1,26 @@
+# sexpbot-twitter
+
+Twitter plugin for sexpbot
+
+
+## Usage:
+
+  * Go to http://dev.twitter.com
+  * Login as the Twitter account associated with your bot
+  * Register a new application
+  * Get the consumer key and consumer secret
+  * Click My Access Token
+  * Get access token and access token secret
+  * Add a section to info.clj under the server like this:
+   :twitter {:consumer-key "-----"
+             :consumer-secret "-----"
+             :access-token "-----"
+             :access-token-secret "-----"}
+  * Use the 'tweet' command to post tweets from your bot (admin only)
+
+
+## License
+
+Copyright (C) 2010 Michael D. Ivey <ivey@gweezlebur.com>
+
+Distributed under the Eclipse Public License, the same as Clojure.
